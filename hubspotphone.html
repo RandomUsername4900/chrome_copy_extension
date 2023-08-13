@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://applications.zoom.us/integration/phone/hubspotphone/login -->
+<html lang="en" data-kantu="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-emotion="css" data-s=""></style>
+        
+        <meta name="robots" content="noindex">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Zoom Phone For HubSpot</title>
+  <style>
+#root:empty {
+  margin: 30px 20px;
+  min-height: 200px;
+  /* change height to see repeat-y behavior */
+  background-image: radial-gradient(circle 25px at 25px 25px, lightgray 99%, transparent 0), linear-gradient(100deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%), linear-gradient(lightgray 20px, transparent 0), linear-gradient(lightgray 20px, transparent 0), linear-gradient(lightgray 20px, transparent 0), linear-gradient(lightgray 20px, transparent 0), linear-gradient(lightgray 20px, transparent 0), linear-gradient(lightgray 20px, transparent 0);
+  background-repeat: no-repeat;
+  background-size: 100px 200px, 50px 200px, 100% 200px, 100% 200px, 30% 200px, 30% 200px, 50% 200px, 50% 200px;
+  background-position: 0 0, 0 0, 80px 0, 80px 40px, 80px 120px, 80px 160px, 80px 200px, 80px 240px;
+  -webkit-animation: shine 3s infinite;
+          animation: shine 3s infinite; }
+
+@-webkit-keyframes shine {
+  to {
+    background-position: 0 0, 100% 0, 80px 0, 80px 40px, 80px 120px, 80px 160px, 80px 200px, 80px 240px; } }
+
+@keyframes shine {
+  to {
+    background-position: 0 0, 100% 0, 80px 0, 80px 40px, 80px 120px, 80px 160px, 80px 200px, 80px 240px; } }
+
+</style>        <link type="text/css" rel="stylesheet" href="./main.css">
+    <script nonce="">
+        window.appConf = {
+            cdn: 'https://vaapplicationscontent.zoom.us',
+            assets: 'https://aw1vaapplications.zoom.us',
+            language: 'en',
+            region: 'us',
+            page:     {
+    appName: 'hubspotphone',
+    userId: '',
+    zpnsWebSocketURL: '',
+    resource: '',
+    isLogin: false,
+    disableClickToCall: false,
+    enableAutoDialWithExtNumber: false
+    }
+,
+            projectName: 'phone',
+            ajaxHeaders: [{key: "x-zm-cluster-id", value: "aw1"}
+                , {key: "x-zm-aid", value: ""}
+                , {key: "x-zm-haid", value: ""}
+                , {key: "x-zm-region", value: "VA"}
+            ]
+        }
+    </script>
+        <script nonce="">
+            window.zoomI18n = function (obj) {
+                if (typeof obj === 'object') {
+                    window.integrationDefaultLangData = obj;
+                }
+            }
+        </script>
+    <style data-jss="" data-meta="MuiCssBaseline">
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #fafafa;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+body::backdrop {
+  background-color: #fafafa;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  height: 100vh;
+  position: relative;
+}
+.jss2 {
+  top: 30%;
+  left: 50%;
+  width: 300px;
+  display: flex;
+  position: absolute;
+  transform: translateX(-50%);
+  align-items: center;
+  flex-direction: column;
+}
+.jss3 {
+  width: 106px;
+}
+.jss4 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.jss5 {
+  color: #FFFFFF;
+  width: 200px;
+  background: #0E72ED;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+.jss5:hover {
+  background: #0956B5;
+  box-shadow: none;
+}
+.jss5:active {
+  background: #033A7D;
+  box-shadow: none;
+}
+</style><style data-emotion="css-global" data-s=""></style></head>
+    <body>
+    <div id="root"><div class="jss1"><div class="jss2"><svg class=" css-1oah6lh" viewBox="0 0 91 20"><path fill-rule="evenodd" clip-rule="evenodd" d="m5 20-1-.05c-1.6609-.1094-2.8513-1.3025-2.95-2.951L1 16 13 4H4l-1.0012-.05C1.3632 3.8554.1796 2.626.05.999L0 0l15 .001.9999.049c1.6566.0875 2.8708 1.2918 2.9501 2.9512L19 4 7 16h9l1 .05c1.6503.1031 2.8162 1.3045 2.95 2.951L20 20H5Zm31.071-2.929c3.9053-3.9052 3.9053-10.2368 0-14.142C34.12.978 31.5635.0017 28.9937 0 26.4365.0017 23.88.978 21.929 2.929c-3.9053 3.9052-3.9053 10.2368 0 14.142 3.9052 3.9053 10.2368 3.9053 14.142 0Zm-2.8283-2.8283c2.3431-2.3433 2.3431-6.1421 0-8.4854-2.3432-2.343-6.1422-2.343-8.4854 0-2.3431 2.3433-2.3431 6.1421 0 8.4854 2.3432 2.343 6.1422 2.343 8.4854 0ZM58.071 2.929c3.9053 3.9052 3.9053 10.2368 0 14.142-3.9052 3.9053-10.2368 3.9053-14.142 0-3.9053-3.9052-3.9053-10.2368 0-14.142C45.88.978 48.4365.0017 50.9937 0c2.5698.0017 5.1263.978 7.0773 2.929Zm-2.8283 2.8283c2.3431 2.3433 2.3431 6.1421 0 8.4854-2.3432 2.343-6.1422 2.343-8.4854 0-2.3431-2.3433-2.3431-6.1421 0-8.4854 2.3432-2.343 6.1422-2.343 8.4854 0ZM74.95 8c-.0387-.751-.1462-1.4165-.4887-2.0064C73.7688 4.8016 72.478 4 71 4c-1.4766 0-2.7662.8-3.4592 1.9902-.3439.5906-.4486 1.2576-.4908 2.0098L67 9v7l-.05 1.0005c-.0654 1.6601-1.2798 2.8396-2.95 2.9495L63 20V0c1 0 2.7416.5056 3.5197 1.3713C67.798.5056 69.34 0 71 0c2.3894 0 4.5341 1.0476 6 2.7083C78.4659 1.0475 80.6106 0 83 0c4.4183 0 8 3.5818 8 8v12l-.999-.05c-1.6524-.0958-2.8473-1.306-2.951-2.951L87 16V8.999L86.95 8c-.0396-.733-.1449-1.4123-.4856-2.001C85.7726 4.804 84.4802 4 83 4c-1.4749 0-2.7634.7983-3.4569 1.9863-.3452.5913-.4541 1.272-.4931 2.0137L79 9v11l-.999-.05c-1.65-.1045-2.8521-1.3155-2.951-2.951L75 16V9l-.05-1Z" fill="#2D8CFF"></path></svg><h3 class="jss4">Sign in to Zoom</h3><button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge MuiButton-containedSizeLarge css-bdkxvf" tabindex="0" type="button">Sign in</button></div></div></div>
+        <script nonce="" src="./main.js.download"></script>
+    
+    
+</body></html>

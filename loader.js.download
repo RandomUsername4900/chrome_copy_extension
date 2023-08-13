@@ -1,0 +1,3 @@
+!function(){const t=/(?:(?:app(?:-[a-z]{0,2}\d)?)|(?:local))\.hubspot(?:qa)?\.com/,a=window.location.hostname.toLowerCase();if(t.test(a)){let t=!1;try{t=!0===(localStorage&&JSON.parse(localStorage.getItem("LIVE_NOTIFICATIONS_DEBUG"))).localClient||localStorage&&"true"===localStorage.getItem("LIVE_NOTIFICATIONS_DEBUG")}catch(t){}const e=`${t?"//local.hsappstatic.net":"//static.hsappstatic.net"}/live-notifications/${t?"static":"ex"}/js/start${!t&&a.includes("qa")?"-qa":""}.js`,c=document.head||document.body,o=document.createElement("script");o.type="text/javascript";o.async=!0;o.src=e;c.appendChild(o)}}();
+
+//# sourceMappingURL=loader.js.map
